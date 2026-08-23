@@ -59,7 +59,10 @@
         .no-results { text-align: center; padding: 44px 20px; color: #8a999f; }
         .no-results p:first-child { font-size: 1.08rem; margin-bottom: 8px; }
         .error-message { text-align: center; padding: 24px; color: #a33a3a; background: #fff4f4; border: 1px solid #eccaca; border-radius: 10px; }
-        .footer { padding: 20px; background: #f6fafb; text-align: center; color: #7f8f96; font-size: 0.9rem; border-top: 1px solid var(--border); }
+        .footer { padding: 24px 20px; background: #f6fafb; text-align: left; color: #62737b; font-size: 0.82rem; line-height: 1.55; border-top: 1px solid var(--border); }
+        .footer p { margin: 0 0 12px; }
+        .footer p:last-child { margin-bottom: 0; }
+        .footer a { color: var(--blue); }
         @media (max-width: 768px) { body { padding: 10px; } .search-controls { grid-template-columns: 1fr; } .search-type, .filter-options { justify-content: flex-start; } .mentor-title-row { align-items: flex-start; } }
     </style>
 </head>
@@ -69,15 +72,15 @@
             <div class="logo-wrap">
                 <img id="ms4sf-logo" class="ms4sf-logo" src="./static/ms4sf_logo.png" alt="MS4SF logo" onerror="this.style.display='none';">
             </div>
-            <h1>🔬 Research Mentors Directory</h1>
-            <p>Find climate and health researchers and mentors</p>
+            <h1>🔬 MS4SF Climate/Health Researcher Directory</h1>
+            <p>Find researchers and mentors in environmental health and healthcare sustainability</p>
             <div class="stats">
                 <div class="stat"><span>👥</span><span><span class="stat-number" id="total-mentors">0</span> Researchers</span></div>
                 <div class="stat"><span>✉️</span><span><span class="stat-number" id="mentors-with-email">0</span> With Email</span></div>
             </div>
             <div class="legend">
                 <span class="legend-item"><span>🌎</span> Current or former MS4SF member</span>
-                <span class="legend-item"><span>★</span> Mentorship form completed</span>
+                <span class="legend-item"><span>★</span> Registered MS4SF mentor (excited to work with students!)</span>
             </div>
         </header>
 
@@ -105,7 +108,9 @@
         </main>
 
         <footer class="footer">
-            <p>Research mentor database for students and researchers interested in climate and health</p>
+            <p><em>Medical Students for a Sustainable Future is a registered 501(c)(3) nonprofit organization. We are registered to solicit donations where required by law. To request a copy of our IRS Form 1023, our most recent Form 990, more information about our registrations, or to confirm our eligibility to accept donations in your state, please contact us at <a href="mailto:info@ms4sf.org">info@ms4sf.org</a>.</em></p>
+            <p><em>All contact information listed on this site is publicly available on PubMed. If you wish to have your name or contact information removed from this database, please contact us at <a href="mailto:info@ms4sf.org">info@ms4sf.org</a>.</em></p>
+            <p><em>We here at MS4SF strive to meet WCAG 2.1 accessibility standards (<a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">W3C Web Content Accessibility Guidelines</a>). If you experience any difficulty accessing content on this site, please contact us at <a href="mailto:info@ms4sf.org">info@ms4sf.org</a> so that we can improve.</em></p>
         </footer>
     </div>
 
